@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PetAlert</string>
+    <string name="title_home">Home</string>
+    <string name="title_map">Map</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="facebook_application_id">207906875510210</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">10c41d644fbe5bf90d6954838dc77620</string>
+</resources>

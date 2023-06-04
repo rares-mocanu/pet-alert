@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "543422281446",
+    "firebase_url": "https://petalert-21658-default-rtdb.firebaseio.com",
+    "project_id": "petalert-21658",
+    "storage_bucket": "petalert-21658.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543422281446:android:f211a3a4d1f09e61a46d27",
+        "android_client_info": {
+          "package_name": "com.petalert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543422281446-8qur8lnfv40vikq2pm7subpqhomo83vu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.petalert",
+            "certificate_hash": "070c1ac46f9692784d056417700bb450fed60511"
+          }
+        },
+        {
+          "client_id": "543422281446-t6rhbipe4t8rpeqoapu72q5ful4hqb9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwkPzJm1PbwP41sgeYCqgia2DXiHjifrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543422281446-t6rhbipe4t8rpeqoapu72q5ful4hqb9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
