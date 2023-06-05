@@ -31,6 +31,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.petalert.AddWaypointActivity
+import com.petalert.DetailsActivity
 import com.petalert.WaypointModel
 
 class MapsFragment : Fragment(), GoogleMap.InfoWindowAdapter{
@@ -107,6 +108,15 @@ class MapsFragment : Fragment(), GoogleMap.InfoWindowAdapter{
                     }
                 )
             }
+        }
+        googleMap.setOnInfoWindowClickListener {
+            var waypointKey =""
+            for((key,value)in markers)
+                if(value==it)
+                    waypointKey=key
+            val intent = Intent(this.context, DetailsActivity::class.java)
+            intent.putExtra("waypoint_key",waypointKey)
+            startActivity(intent)
         }
     }
 
@@ -245,7 +255,6 @@ class MapsFragment : Fragment(), GoogleMap.InfoWindowAdapter{
     override fun getInfoWindow(marker: Marker): View? {
     return null
     }
-
     override fun getInfoContents(marker: Marker): View {
         val waypointInfoView = layoutInflater.inflate(R.layout.marker_detail_view, null)
 
